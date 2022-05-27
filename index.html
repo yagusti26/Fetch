@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="/estilos.css">
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'></link>  
+    </head>
+    <body>
+        <header>
+            <article id="stats" class="hide" >
+                <p class="d-block">PPM (Palabras por minuto): <span id="wpm-display"></span></p>
+                <p class="d-block">Puntaje: <span id="score-display"></span></p>
+                <p class="d-block">
+                    Tiempo restante: <span id="time-display"></span>
+                </p>
+            </article>
+            <h1 id="main-heading">Poné a prueba tu velocidad de tipeo</h1>
+        </header>
+
+        <main>
+            <section id="main-section">
+                
+                <article id="main-content"></article>
+
+                <button type="submit" id="button">Empezar</button>
+
+                <a id="btn-highscore" href="./resultados.html"><button>Resultados</button></a>
+
+                <article id="text-display" ></article>
+                
+
+                <form id="form">
+                    <input class="hide" id="input" type="text" />
+                </form>
+            </section>
+
+          
+            
+        </main>
+
+        <script src="./martinFierro.js"></script>
+
+        <script src="/myjs.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    </body>
+</html>
